@@ -1,4 +1,13 @@
 {
   "formatVersion": 1,
-  "stories": []
+  "stories": [
+    {
+      "id": "shakuntala",
+      "title": "Shakuntala",
+      "subtitle": "From the Mahabharata and Kalidasa's play",
+      "contentVersion": 1,
+      "cover": "shakuntala/cover.jpg",
+      "eventCount": 9
+    }
+  ]
 }

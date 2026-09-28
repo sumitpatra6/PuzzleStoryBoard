@@ -703,6 +703,26 @@ Every failure names its path, e.g. `shakuntala.events[2].payoff.body`.
 | `characters` | array of character ids; every one must resolve |
 | `image` | **yes** — this is the puzzle picture |
 | `payoff` | **yes** — a card |
+| `dialogue` | no — comic-style lines drawn over the revealed picture (below) |
+
+**A dialogue line** — one entry of `events[].dialogue`, shown in order as
+comic speech bubbles, thought bubbles and caption boxes once the puzzle is
+solved:
+
+```json
+{ "speaker": "dushyanta", "kind": "speech", "text": "Wear my signet ring.", "anchor": "top_left" }
+```
+
+| Field | Rule |
+|---|---|
+| `speaker` | a character id listed in this event's `characters`, or `null` for a caption |
+| `kind` | `speech`, `thought`, or `caption`; a caption has `speaker: null`, and nothing else does |
+| `text` | non-blank, 120 characters at most, so it fits a bubble on a phone |
+| `anchor` | where the bubble sits: `top`, `bottom`, `top_left`, `top_right`, `bottom_left`, `bottom_right`; place it off the faces |
+
+The field is optional and additive, so it does not change `formatVersion`: an
+app that does not know it ignores it. `validate.py` does not check it; check
+it by eye, or with a quick script, before pushing.
 
 **An image reference** — all five fields required and non-blank:
 

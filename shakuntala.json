@@ -1,0 +1,317 @@
+{
+  "formatVersion": 1,
+  "id": "shakuntala",
+  "title": "Shakuntala",
+  "subtitle": "From the Mahabharata and Kalidasa's play",
+
+  "intro": {
+    "title": "A girl raised by the forest",
+    "body": "Long ago, the sage Vishwamitra sat so deep in meditation that the gods in heaven grew afraid of his power. Indra sent the apsara Menaka down to break his concentration, and she did. From their love a daughter was born.\n\nThis is the story of that daughter: how she was found, how she fell in love with a king and was forgotten by him, and how a lost ring and a fearless child brought them back together.",
+    "image": {
+      "file": "shakuntala/intro.jpg",
+      "caption": "Menaka and Vishwamitra",
+      "credit": "Raja Ravi Varma (1848-1906)",
+      "source": "Wikimedia Commons",
+      "licence": "Public domain"
+    }
+  },
+
+  "characters": [
+    {
+      "id": "shakuntala",
+      "name": "Shakuntala",
+      "epithet": "Daughter of a sage and an apsara",
+      "blurb": "Abandoned at birth and raised in the sage Kanva's forest hermitage, she grew up among deer, birds and flowering trees. She is gentle but proud, and she will not beg anyone to believe the truth.",
+      "image": {
+        "file": "shakuntala/char_shakuntala.jpg",
+        "caption": "Shakuntala (detail)",
+        "credit": "Raja Ravi Varma (1848-1906)",
+        "source": "Wikimedia Commons",
+        "licence": "Public domain"
+      }
+    },
+    {
+      "id": "dushyanta",
+      "name": "Dushyanta",
+      "epithet": "King of the Puru dynasty",
+      "blurb": "A brave and handsome king who strays into the hermitage while hunting a deer. He loves quickly and sincerely, but a curse will steal his memory of her.",
+      "image": {
+        "file": "shakuntala/char_dushyanta.jpg",
+        "caption": "King Dushyanta (detail, cropped)",
+        "credit": "After Raja Ravi Varma (1848-1906); Wellcome Collection",
+        "source": "Wikimedia Commons",
+        "licence": "CC BY 4.0"
+      }
+    },
+    {
+      "id": "kanva",
+      "name": "Kanva",
+      "epithet": "Sage of the forest hermitage",
+      "blurb": "A wise old sage who found a baby guarded by birds and raised her as his own daughter. He named her Shakuntala: the one protected by birds.",
+      "image": null
+    },
+    {
+      "id": "menaka",
+      "name": "Menaka",
+      "epithet": "Apsara of Indra's heaven",
+      "blurb": "The most beautiful of the celestial dancers. She was sent to earth on a mission and had to leave her daughter behind when she returned to heaven.",
+      "image": {
+        "file": "shakuntala/char_menaka.jpg",
+        "caption": "Menaka (detail)",
+        "credit": "Raja Ravi Varma (1848-1906)",
+        "source": "Wikimedia Commons",
+        "licence": "Public domain"
+      }
+    },
+    {
+      "id": "vishwamitra",
+      "name": "Vishwamitra",
+      "epithet": "A king who became a great sage",
+      "blurb": "Once a warrior king, he gave up his throne to seek spiritual power. His meditation was so fierce that even Indra feared him.",
+      "image": {
+        "file": "shakuntala/char_vishwamitra.jpg",
+        "caption": "Vishwamitra (detail)",
+        "credit": "Raja Ravi Varma (1848-1906)",
+        "source": "Wikimedia Commons",
+        "licence": "Public domain"
+      }
+    },
+    {
+      "id": "anasuya",
+      "name": "Anasuya",
+      "epithet": "Shakuntala's friend",
+      "blurb": "The thoughtful one of Shakuntala's two closest friends in the hermitage. She notices everything and worries about what might go wrong.",
+      "image": null
+    },
+    {
+      "id": "priyamvada",
+      "name": "Priyamvada",
+      "epithet": "Shakuntala's friend",
+      "blurb": "The playful one of the pair, always teasing. Her name means 'she who speaks sweetly', and her words calm even an angry sage.",
+      "image": null
+    },
+    {
+      "id": "durvasa",
+      "name": "Durvasa",
+      "epithet": "The sage of terrible temper",
+      "blurb": "A powerful sage famous for his curses. Anyone who fails to honour him had better beware.",
+      "image": null
+    },
+    {
+      "id": "bharata",
+      "name": "Bharata",
+      "epithet": "Son of Shakuntala and Dushyanta",
+      "blurb": "Born and raised in a forest hermitage, he is afraid of nothing, not even lions. He will grow up to be an emperor, and India, Bharat, will carry his name.",
+      "image": {
+        "file": "shakuntala/char_bharata.jpg",
+        "caption": "Young Bharata (detail)",
+        "credit": "Raja Ravi Varma (1848-1906)",
+        "source": "Wikimedia Commons",
+        "licence": "Public domain"
+      }
+    }
+  ],
+
+  "events": [
+    {
+      "id": "e1_birth",
+      "title": "Born of Earth and Heaven",
+      "setup": "Menaka must return to heaven. What will become of the baby?",
+      "characters": ["menaka", "vishwamitra", "kanva"],
+      "image": {
+        "file": "shakuntala/e1.jpg",
+        "caption": "Vishwamitra refuses the child Menaka offers him",
+        "credit": "Raja Ravi Varma (1848-1906)",
+        "source": "Wikimedia Commons",
+        "licence": "Public domain"
+      },
+      "dialogue": [
+        { "speaker": "menaka", "kind": "speech", "text": "She is your daughter too. Take her!", "anchor": "top_left" },
+        { "speaker": "vishwamitra", "kind": "speech", "text": "I have already given up too much for you. Go!", "anchor": "top_right" },
+        { "speaker": null, "kind": "caption", "text": "The baby was left by a river, where birds sheltered her with their wings.", "anchor": "bottom" }
+      ],
+      "payoff": {
+        "title": "Protected by birds",
+        "body": "Neither parent could keep the child. Vishwamitra turned back to his meditation, and Menaka returned to heaven.\n\nThe sage Kanva found the baby beside the river Malini, guarded by a ring of birds. He named her Shakuntala, 'the one protected by birds', and raised her as his own."
+      }
+    },
+    {
+      "id": "e2_the_glance",
+      "title": "The Glance Back",
+      "setup": "A king chasing a deer wanders into the hermitage, and Shakuntala sees him.",
+      "characters": ["shakuntala", "dushyanta", "anasuya", "priyamvada"],
+      "image": {
+        "file": "shakuntala/e2.jpg",
+        "caption": "Shakuntala pretends to pull a thorn from her foot so she can look back",
+        "credit": "Raja Ravi Varma (1848-1906)",
+        "source": "Wikimedia Commons",
+        "licence": "Public domain"
+      },
+      "dialogue": [
+        { "speaker": "priyamvada", "kind": "speech", "text": "Why have you stopped, Shakuntala?", "anchor": "top_left" },
+        { "speaker": "shakuntala", "kind": "speech", "text": "A thorn... in my foot.", "anchor": "top_right" },
+        { "speaker": "shakuntala", "kind": "thought", "text": "Just one more look at him.", "anchor": "bottom_right" }
+      ],
+      "payoff": {
+        "title": "Two worlds meet",
+        "body": "King Dushyanta had followed a deer deep into the forest and stopped his chariot at Kanva's hermitage out of respect. There he saw Shakuntala watering the plants with her friends.\n\nNeither of them said much. But as she walked away, she stopped, pretended a thorn had caught her foot, and looked back."
+      }
+    },
+    {
+      "id": "e3_the_letter",
+      "title": "A Letter on a Lotus Leaf",
+      "setup": "Shakuntala cannot eat or sleep. Her friends know exactly why.",
+      "characters": ["shakuntala", "anasuya", "priyamvada"],
+      "image": {
+        "file": "shakuntala/e3.jpg",
+        "caption": "Shakuntala writes a love letter to Dushyanta",
+        "credit": "Raja Ravi Varma (1848-1906)",
+        "source": "Wikimedia Commons",
+        "licence": "Public domain"
+      },
+      "dialogue": [
+        { "speaker": "anasuya", "kind": "speech", "text": "Write to him. Tell him what you feel.", "anchor": "top_left" },
+        { "speaker": "shakuntala", "kind": "thought", "text": "What if a king does not care for a forest girl?", "anchor": "top" },
+        { "speaker": "priyamvada", "kind": "speech", "text": "Use your fingernail on the lotus leaf. We'll deliver it!", "anchor": "top_right" }
+      ],
+      "payoff": {
+        "title": "Words scratched with a fingernail",
+        "body": "With no ink and no paper in the hermitage, Shakuntala scratched her feelings onto a soft lotus leaf with her fingernail.\n\nDushyanta was hiding nearby, listening. He stepped out before the letter could ever be sent."
+      }
+    },
+    {
+      "id": "e4_the_ring",
+      "title": "The Ring",
+      "setup": "While Kanva is away, the king and Shakuntala make a promise.",
+      "characters": ["shakuntala", "dushyanta"],
+      "image": {
+        "file": "shakuntala/e4.jpg",
+        "caption": "King Dushyanta gives Shakuntala his ring",
+        "credit": "After Raja Ravi Varma (1848-1906); Wellcome Collection",
+        "source": "Wikimedia Commons",
+        "licence": "CC BY 4.0"
+      },
+      "dialogue": [
+        { "speaker": "dushyanta", "kind": "speech", "text": "Wear my signet ring. Count one letter of my name each day, and before you reach the end, I will send for you.", "anchor": "top_left" },
+        { "speaker": "shakuntala", "kind": "speech", "text": "I will count every one.", "anchor": "top_right" }
+      ],
+      "payoff": {
+        "title": "A marriage of the heart",
+        "body": "They married by the Gandharva rite, a marriage of mutual love with no priest and no guests, only the forest as witness.\n\nThen duty called the king back to his capital. He left Shakuntala his royal ring as a promise."
+      }
+    },
+    {
+      "id": "e5_the_curse",
+      "title": "The Curse of Durvasa",
+      "setup": "Shakuntala is dreaming of her husband, so deeply that she does not hear a guest at the gate.",
+      "characters": ["shakuntala", "durvasa", "priyamvada", "kanva"],
+      "image": {
+        "file": "shakuntala/e5.jpg",
+        "caption": "Shakuntala lost in thought",
+        "credit": "Raja Ravi Varma (1848-1906)",
+        "source": "Wikimedia Commons",
+        "licence": "Public domain"
+      },
+      "dialogue": [
+        { "speaker": "durvasa", "kind": "speech", "text": "You ignore a sage at your door? Then the one you dream of will forget you!", "anchor": "top_right" },
+        { "speaker": "priyamvada", "kind": "speech", "text": "Forgive her, great one! She meant no insult.", "anchor": "top_left" },
+        { "speaker": "durvasa", "kind": "speech", "text": "A curse cannot be undone. But if he sees a token he gave her, he will remember.", "anchor": "bottom_right" }
+      ],
+      "payoff": {
+        "title": "A curse, and a way out",
+        "body": "The fiery sage Durvasa cursed Shakuntala for failing to greet him. Her friends begged for mercy, and he softened the curse: the king would remember her if he saw a token he had given her.\n\nThe friends never told Shakuntala. After all, she had the ring. When Kanva returned and learned of the marriage, he blessed her and sent her to her husband's court."
+      }
+    },
+    {
+      "id": "e6_the_court",
+      "title": "Forgotten",
+      "setup": "Shakuntala stands before the king's throne. He looks at her like a stranger.",
+      "characters": ["shakuntala", "dushyanta"],
+      "image": {
+        "file": "shakuntala/e6.jpg",
+        "caption": "Shakuntala in the court of Dushyanta",
+        "credit": "Raja Ravi Varma (1848-1906)",
+        "source": "Wikimedia Commons",
+        "licence": "Public domain"
+      },
+      "dialogue": [
+        { "speaker": "dushyanta", "kind": "speech", "text": "I have never seen this woman before.", "anchor": "top_right" },
+        { "speaker": "shakuntala", "kind": "speech", "text": "Then look at your own ring!", "anchor": "top_left" },
+        { "speaker": null, "kind": "caption", "text": "But her finger was bare. The ring had slipped off while she bathed in a sacred river.", "anchor": "bottom" }
+      ],
+      "payoff": {
+        "title": "The ring in the river",
+        "body": "On the journey to the capital, Shakuntala had stopped to offer prayers at a river, and the loose ring slipped from her finger into the water.\n\nWith no token to break the curse, the king remembered nothing. The court turned its back on her."
+      }
+    },
+    {
+      "id": "e7_taken_to_heaven",
+      "title": "Carried Away",
+      "setup": "Rejected and alone, Shakuntala cries out. Someone in heaven hears her.",
+      "characters": ["shakuntala", "menaka"],
+      "image": {
+        "file": "shakuntala/e7.jpg",
+        "caption": "Menaka carries Shakuntala away",
+        "credit": "Raja Ravi Varma (1848-1906)",
+        "source": "Wikimedia Commons",
+        "licence": "Public domain"
+      },
+      "dialogue": [
+        { "speaker": "shakuntala", "kind": "speech", "text": "Mother Earth, open and take me in!", "anchor": "top_left" },
+        { "speaker": "menaka", "kind": "speech", "text": "Hush, my daughter. You will not be alone again.", "anchor": "top_right" }
+      ],
+      "payoff": {
+        "title": "A mother returns",
+        "body": "A flash of light, and Shakuntala was gone. Her mother Menaka had come for her at last, and carried her to the peaceful hermitage of the sage Marica, high in the Himalayas.\n\nThere, far from any court, her son was born."
+      }
+    },
+    {
+      "id": "e8_the_lion_cub",
+      "title": "The Boy Who Counted a Lion's Teeth",
+      "setup": "Years pass. In a mountain hermitage, a small boy has caught something dangerous.",
+      "characters": ["bharata"],
+      "image": {
+        "file": "shakuntala/e8.jpg",
+        "caption": "Young Bharata with a lion cub",
+        "credit": "Raja Ravi Varma (1848-1906)",
+        "source": "Wikimedia Commons",
+        "licence": "Public domain"
+      },
+      "dialogue": [
+        { "speaker": "bharata", "kind": "speech", "text": "Open your mouth, little lion! I want to count your teeth!", "anchor": "top_right" },
+        { "speaker": null, "kind": "caption", "text": "Behind the rocks, the lioness was watching.", "anchor": "bottom_left" }
+      ],
+      "payoff": {
+        "title": "Sarvadamana, the tamer of all",
+        "body": "The hermits called the boy Sarvadamana, 'the one who tames everything', because he wrestled lion cubs and was afraid of nothing.\n\nMeanwhile, far away, a fisherman cut open a fish and found a royal ring inside. When the king saw it, the curse broke, and his memory of Shakuntala came flooding back, along with bitter regret."
+      }
+    },
+    {
+      "id": "e9_reunion",
+      "title": "Recognised",
+      "setup": "Returning from a battle for the gods, the king stops at a mountain hermitage and meets a fearless boy.",
+      "characters": ["dushyanta", "bharata", "shakuntala"],
+      "image": {
+        "file": "shakuntala/e9.jpg",
+        "caption": "Dushyanta kneels before his son, with Shakuntala",
+        "credit": "Raja Ravi Varma (1848-1906)",
+        "source": "Wikimedia Commons",
+        "licence": "Public domain"
+      },
+      "dialogue": [
+        { "speaker": "bharata", "kind": "speech", "text": "Mother, who is this man?", "anchor": "top_left" },
+        { "speaker": "dushyanta", "kind": "speech", "text": "Shakuntala... can you forgive me?", "anchor": "top_right" },
+        { "speaker": "shakuntala", "kind": "thought", "text": "It was the curse, not his heart.", "anchor": "bottom_left" }
+      ],
+      "payoff": {
+        "title": "A family made whole",
+        "body": "The boy's protective amulet, which only his parents could touch, lay in the king's hand without harm. Dushyanta knew then that this was his son.\n\nShakuntala forgave him. The three of them returned to the capital together."
+      }
+    }
+  ],
+
+  "finale": {
+    "title": "Why this story survived",
+    "body": "The boy grew up to be Emperor Bharata, and India's own name for itself, Bharat, is said to come from him. The Mahabharata tells the story of his descendants.\n\nCenturies later the poet Kalidasa retold it as a play, adding the ring, the curse and the fish. It became one of the best-loved works of Sanskrit literature, and when it was translated into European languages in the 1790s, Goethe wrote that heaven and earth were contained in that one name, Shakuntala."
+  }
+}
