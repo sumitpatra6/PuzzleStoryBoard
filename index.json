@@ -8,6 +8,14 @@
       "contentVersion": 1,
       "cover": "shakuntala/cover.jpg",
       "eventCount": 9
+    },
+    {
+      "id": "nala_damayanti",
+      "title": "Nala and Damayanti",
+      "subtitle": "From the Vana Parva of the Mahabharata",
+      "contentVersion": 1,
+      "cover": "nala_damayanti/cover.jpg",
+      "eventCount": 12
     }
   ]
 }

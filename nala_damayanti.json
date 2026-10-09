@@ -1,0 +1,602 @@
+{
+  "formatVersion": 1,
+  "id": "nala_damayanti",
+  "title": "Nala and Damayanti",
+  "subtitle": "From the Vana Parva of the Mahabharata",
+  "intro": {
+    "title": "Two people who had never met",
+    "body": "In the kingdom of Nishadha ruled Nala: brave, handsome, a master of horses, and fond, a little too fond, of the game of dice. In the kingdom of Vidarbha lived the princess Damayanti, so lovely that even the gods spoke of her.\n\nEach had heard the other praised so often that they fell in love without ever meeting. This is the story of how a swan brought them together, how a game of dice tore them apart, and how they found each other again.",
+    "image": {
+      "file": "nala_damayanti/intro.jpg",
+      "caption": "Damayanti hears of Nala",
+      "credit": "Sumit Patra (AI-generated)",
+      "source": "Generated with ComfyUI, FLUX.2 [klein] 4B",
+      "licence": "CC BY 4.0"
+    }
+  },
+  "characters": [
+    {
+      "id": "damayanti",
+      "name": "Damayanti",
+      "epithet": "Princess of Vidarbha",
+      "blurb": "The most beautiful woman in the three worlds, and the cleverest. When she has chosen, not even the gods can change her mind.",
+      "image": {
+        "file": "nala_damayanti/char_damayanti.jpg",
+        "caption": "Damayanti (detail of Hamsa Damayanti)",
+        "credit": "Raja Ravi Varma (1848-1906)",
+        "source": "Wikimedia Commons",
+        "licence": "Public domain"
+      }
+    },
+    {
+      "id": "nala",
+      "name": "Nala",
+      "epithet": "King of Nishadha",
+      "blurb": "A generous king and a peerless charioteer who knows the secrets of horses. His one weakness is the dice, and a jealous spirit is waiting for it.",
+      "image": {
+        "file": "nala_damayanti/char_nala.jpg",
+        "caption": "King Nala",
+        "credit": "Sumit Patra (AI-generated)",
+        "source": "Generated with ComfyUI, FLUX.2 [klein] 4B",
+        "licence": "CC BY 4.0"
+      }
+    },
+    {
+      "id": "hamsa",
+      "name": "The Golden Swan",
+      "epithet": "A messenger with wings",
+      "blurb": "A swan with gold-touched wings who can speak like a person. Spared by Nala, it repays him by carrying his name to Damayanti.",
+      "image": {
+        "file": "nala_damayanti/char_hamsa.jpg",
+        "caption": "The swan (detail of Hamsa Damayanti)",
+        "credit": "Raja Ravi Varma (1848-1906)",
+        "source": "Wikimedia Commons",
+        "licence": "Public domain"
+      }
+    },
+    {
+      "id": "indra",
+      "name": "Indra",
+      "epithet": "King of the gods",
+      "blurb": "Lord of heaven and the thunderbolt. He and three other gods come down to win Damayanti, and learn that a mortal can refuse them.",
+      "image": {
+        "file": "nala_damayanti/char_indra.jpg",
+        "caption": "Indra",
+        "credit": "Sumit Patra (AI-generated)",
+        "source": "Generated with ComfyUI, FLUX.2 [klein] 4B",
+        "licence": "CC BY 4.0"
+      }
+    },
+    {
+      "id": "kali",
+      "name": "Kali",
+      "epithet": "Spirit of the age of quarrel",
+      "blurb": "The dark power behind every losing throw of the dice. He arrives too late to win Damayanti and swears to ruin the man who did.",
+      "image": {
+        "file": "nala_damayanti/char_kali.jpg",
+        "caption": "Kali",
+        "credit": "Sumit Patra (AI-generated)",
+        "source": "Generated with ComfyUI, FLUX.2 [klein] 4B",
+        "licence": "CC BY 4.0"
+      }
+    },
+    {
+      "id": "pushkara",
+      "name": "Pushkara",
+      "epithet": "Nala's brother",
+      "blurb": "Nala's younger brother, who has always wanted the throne. With Kali guiding his dice, he cannot lose.",
+      "image": {
+        "file": "nala_damayanti/char_pushkara.jpg",
+        "caption": "Pushkara",
+        "credit": "Sumit Patra (AI-generated)",
+        "source": "Generated with ComfyUI, FLUX.2 [klein] 4B",
+        "licence": "CC BY 4.0"
+      }
+    },
+    {
+      "id": "karkotaka",
+      "name": "Karkotaka",
+      "epithet": "King of the serpents",
+      "blurb": "A great cobra trapped by a curse in a burning forest. His bite is the cruellest kindness in the story.",
+      "image": {
+        "file": "nala_damayanti/char_karkotaka.jpg",
+        "caption": "Karkotaka",
+        "credit": "Sumit Patra (AI-generated)",
+        "source": "Generated with ComfyUI, FLUX.2 [klein] 4B",
+        "licence": "CC BY 4.0"
+      }
+    },
+    {
+      "id": "rituparna",
+      "name": "Rituparna",
+      "epithet": "King of Ayodhya",
+      "blurb": "A cheerful king who can count every leaf on a tree at a glance and never loses at dice, but cannot drive a chariot to save his life.",
+      "image": {
+        "file": "nala_damayanti/char_rituparna.jpg",
+        "caption": "King Rituparna",
+        "credit": "Sumit Patra (AI-generated)",
+        "source": "Generated with ComfyUI, FLUX.2 [klein] 4B",
+        "licence": "CC BY 4.0"
+      }
+    },
+    {
+      "id": "keshini",
+      "name": "Keshini",
+      "epithet": "Damayanti's maid",
+      "blurb": "Quick, observant and loyal. Damayanti trusts her with the most important errand of her life.",
+      "image": {
+        "file": "nala_damayanti/char_keshini.jpg",
+        "caption": "Keshini",
+        "credit": "Sumit Patra (AI-generated)",
+        "source": "Generated with ComfyUI, FLUX.2 [klein] 4B",
+        "licence": "CC BY 4.0"
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "e1_the_golden_swan",
+      "title": "The Golden Swan",
+      "setup": "Walking in his palace garden, King Nala catches a swan with wings that shine like gold.",
+      "characters": [
+        "nala",
+        "hamsa"
+      ],
+      "image": {
+        "file": "nala_damayanti/e1.jpg",
+        "caption": "Nala holds the golden swan",
+        "credit": "Sumit Patra (AI-generated)",
+        "source": "Generated with ComfyUI, FLUX.2 [klein] 4B",
+        "licence": "CC BY 4.0"
+      },
+      "dialogue": [
+        {
+          "speaker": "hamsa",
+          "kind": "speech",
+          "text": "Do not kill me, king! Let me go, and I will make Damayanti of Vidarbha love you.",
+          "anchor": "top_right"
+        },
+        {
+          "speaker": "nala",
+          "kind": "thought",
+          "text": "Damayanti... the princess everyone speaks of.",
+          "anchor": "top_left"
+        },
+        {
+          "speaker": "nala",
+          "kind": "speech",
+          "text": "Fly, then. Tell her about me.",
+          "anchor": "bottom_left"
+        }
+      ],
+      "payoff": {
+        "title": "A promise with wings",
+        "body": "Nala opened his hands and the swan rose into the sky, and its whole flock followed it south to Vidarbha.\n\nNala could have kept a golden bird. He chose to trust a stranger's word instead, and that choice is where his story begins."
+      }
+    },
+    {
+      "id": "e2_the_swans_message",
+      "title": "The Swan's Message",
+      "setup": "In her garden at Vidarbha, Damayanti chases a swan that lets itself be caught, and then begins to speak.",
+      "characters": [
+        "damayanti",
+        "hamsa"
+      ],
+      "image": {
+        "file": "nala_damayanti/e2.jpg",
+        "caption": "Damayanti listens to the swan (Hamsa Damayanti)",
+        "credit": "Raja Ravi Varma (1848-1906)",
+        "source": "Wikimedia Commons",
+        "licence": "Public domain"
+      },
+      "dialogue": [
+        {
+          "speaker": "hamsa",
+          "kind": "speech",
+          "text": "There is a king in Nishadha named Nala, as beautiful as a god. You are the best of women; he is the best of men.",
+          "anchor": "top_right"
+        },
+        {
+          "speaker": "damayanti",
+          "kind": "speech",
+          "text": "Then go to him, swan, and say the same of me.",
+          "anchor": "top_left"
+        },
+        {
+          "speaker": null,
+          "kind": "caption",
+          "text": "From that day she could think of nothing else.",
+          "anchor": "bottom"
+        }
+      ],
+      "payoff": {
+        "title": "Love by rumour",
+        "body": "Damayanti grew pale and quiet, and her father, King Bhima, guessed why. He announced a swayamvara: kings and princes would gather, and Damayanti would choose her own husband by placing a garland around his neck.\n\nThe news reached every court on earth, and even heaven."
+      }
+    },
+    {
+      "id": "e3_messenger_of_the_gods",
+      "title": "Messenger of the Gods",
+      "setup": "On the road to the swayamvara, Nala meets four gods who also want Damayanti, and they give him an errand.",
+      "characters": [
+        "nala",
+        "damayanti",
+        "indra"
+      ],
+      "image": {
+        "file": "nala_damayanti/e3.jpg",
+        "caption": "Nala appears in Damayanti's chamber",
+        "credit": "Sumit Patra (AI-generated)",
+        "source": "Generated with ComfyUI, FLUX.2 [klein] 4B",
+        "licence": "CC BY 4.0"
+      },
+      "dialogue": [
+        {
+          "speaker": null,
+          "kind": "caption",
+          "text": "Made invisible by Indra, Nala walks past every guard into the princess's chamber.",
+          "anchor": "top"
+        },
+        {
+          "speaker": "nala",
+          "kind": "speech",
+          "text": "I am Nala. Indra, Agni, Varuna and Yama ask you to choose one of them.",
+          "anchor": "top_left"
+        },
+        {
+          "speaker": "damayanti",
+          "kind": "speech",
+          "text": "I bow to the gods. But I have already chosen you.",
+          "anchor": "top_right"
+        }
+      ],
+      "payoff": {
+        "title": "An honest messenger",
+        "body": "Nala loved her, but he had given the gods his word, and he spoke only for them. Damayanti answered that she would choose him in front of the gods themselves, so that no blame could fall on him.\n\nNala went back and told the gods everything, even the part that broke his own heart."
+      }
+    },
+    {
+      "id": "e4_five_nalas",
+      "title": "Five Nalas",
+      "setup": "At the swayamvara, Damayanti walks in with her garland and finds five men who all look exactly like Nala.",
+      "characters": [
+        "damayanti",
+        "nala",
+        "indra"
+      ],
+      "image": {
+        "file": "nala_damayanti/e4.jpg",
+        "caption": "Damayanti chooses among five Nalas",
+        "credit": "Sumit Patra (AI-generated)",
+        "source": "Generated with ComfyUI, FLUX.2 [klein] 4B",
+        "licence": "CC BY 4.0"
+      },
+      "dialogue": [
+        {
+          "speaker": "damayanti",
+          "kind": "thought",
+          "text": "Gods do not blink. Gods do not sweat. Their garlands never wilt, and they cast no shadow.",
+          "anchor": "top_left"
+        },
+        {
+          "speaker": "damayanti",
+          "kind": "speech",
+          "text": "This one blinks. This one is dusty from the road. This one is my Nala.",
+          "anchor": "bottom_left"
+        },
+        {
+          "speaker": "indra",
+          "kind": "speech",
+          "text": "Well chosen. We give you our blessings, both of you.",
+          "anchor": "top_right"
+        }
+      ],
+      "payoff": {
+        "title": "Chosen by a mortal",
+        "body": "The four gods had taken Nala's shape to trick her. Damayanti prayed to them to show themselves, and suddenly she could see what made them gods: unblinking eyes, fresh garlands, feet that never touched the ground.\n\nShe placed her garland on the one man who was only a man. The gods, pleased rather than angry, gave Nala eight gifts, among them power over fire and water."
+      }
+    },
+    {
+      "id": "e5_kalis_vow",
+      "title": "Kali's Vow",
+      "setup": "Riding home from the wedding, the gods meet Kali, who is on his way to win Damayanti for himself.",
+      "characters": [
+        "kali",
+        "indra"
+      ],
+      "image": {
+        "file": "nala_damayanti/e5.jpg",
+        "caption": "Indra halts Kali",
+        "credit": "Sumit Patra (AI-generated)",
+        "source": "Generated with ComfyUI, FLUX.2 [klein] 4B",
+        "licence": "CC BY 4.0"
+      },
+      "dialogue": [
+        {
+          "speaker": "indra",
+          "kind": "speech",
+          "text": "You are too late, Kali. She has chosen Nala, and we blessed the marriage.",
+          "anchor": "top_right"
+        },
+        {
+          "speaker": "kali",
+          "kind": "speech",
+          "text": "She chose a mortal over gods? Then I will live inside that mortal and take everything he has.",
+          "anchor": "top_left"
+        }
+      ],
+      "payoff": {
+        "title": "Twelve years of waiting",
+        "body": "Nala and Damayanti lived happily for twelve years and had a son and a daughter. All that time Kali waited for a single lapse in Nala's purity.\n\nOne evening Nala said his prayers without first washing his feet. It was the smallest fault, and it was enough. Kali slipped inside him."
+      }
+    },
+    {
+      "id": "e6_the_game_of_dice",
+      "title": "The Game of Dice",
+      "setup": "Kali whispers to Nala's brother Pushkara: challenge the king to dice, and I will be inside the dice.",
+      "characters": [
+        "nala",
+        "pushkara",
+        "kali"
+      ],
+      "image": {
+        "file": "nala_damayanti/e6.jpg",
+        "caption": "Nala loses to Pushkara at dice",
+        "credit": "Sumit Patra (AI-generated)",
+        "source": "Generated with ComfyUI, FLUX.2 [klein] 4B",
+        "licence": "CC BY 4.0"
+      },
+      "dialogue": [
+        {
+          "speaker": "pushkara",
+          "kind": "speech",
+          "text": "Again, brother? You have nothing left to stake but Damayanti.",
+          "anchor": "top_right"
+        },
+        {
+          "speaker": "kali",
+          "kind": "thought",
+          "text": "One more throw. Just one more.",
+          "anchor": "top"
+        },
+        {
+          "speaker": "nala",
+          "kind": "speech",
+          "text": "No. Never her.",
+          "anchor": "top_left"
+        }
+      ],
+      "payoff": {
+        "title": "Everything but her",
+        "body": "For months Nala played as if under a spell, and lost his gold, his jewels, his army and his kingdom. Damayanti sent their two children to safety with her father.\n\nPushkara declared that anyone who helped Nala would be put to death. With only the clothes they wore, the king and queen walked into the forest."
+      }
+    },
+    {
+      "id": "e7_birds_of_gold",
+      "title": "Birds of Gold",
+      "setup": "Starving in the forest, Nala sees birds with golden wings and throws his only cloth over them to catch one.",
+      "characters": [
+        "nala",
+        "damayanti"
+      ],
+      "image": {
+        "file": "nala_damayanti/e7.jpg",
+        "caption": "The golden birds fly off with Nala's cloth",
+        "credit": "Sumit Patra (AI-generated)",
+        "source": "Generated with ComfyUI, FLUX.2 [klein] 4B",
+        "licence": "CC BY 4.0"
+      },
+      "dialogue": [
+        {
+          "speaker": null,
+          "kind": "caption",
+          "text": "The birds rise into the air, carrying the cloth with them, and call down:",
+          "anchor": "top"
+        },
+        {
+          "speaker": null,
+          "kind": "caption",
+          "text": "\"Foolish king! We are the dice. We came to take even the cloth off your back.\"",
+          "anchor": "bottom"
+        }
+      ],
+      "payoff": {
+        "title": "One cloth for two",
+        "body": "Now Nala had nothing at all, and Damayanti shared her one sari with him.\n\nAshamed, he pointed out the roads that led to her father's kingdom and begged her to go home. She refused. She would not leave him, and he could not bear to see her suffer because of him."
+      }
+    },
+    {
+      "id": "e8_the_half_garment",
+      "title": "The Half Garment",
+      "setup": "In an empty rest house deep in the forest, Damayanti falls asleep. Nala lies awake and makes a terrible decision.",
+      "characters": [
+        "nala",
+        "damayanti"
+      ],
+      "image": {
+        "file": "nala_damayanti/e8.jpg",
+        "caption": "Nala leaves the sleeping Damayanti",
+        "credit": "Raja Ravi Varma (1848-1906)",
+        "source": "Wikimedia Commons",
+        "licence": "Public domain"
+      },
+      "dialogue": [
+        {
+          "speaker": "nala",
+          "kind": "thought",
+          "text": "Without me, she will go home to her father. With me, she will die in this forest.",
+          "anchor": "top_right"
+        },
+        {
+          "speaker": null,
+          "kind": "caption",
+          "text": "He cuts their shared cloth in two with a sword and walks away. Twice he comes back. The third time, he keeps going.",
+          "anchor": "bottom"
+        }
+      ],
+      "payoff": {
+        "title": "Love, or Kali?",
+        "body": "Nala truly believed he was saving her. But the poet tells us Kali was inside him, pulling him away whenever his love pulled him back.\n\nDamayanti woke alone, wrapped in half a garment, and searched the forest calling his name."
+      }
+    },
+    {
+      "id": "e9_alone_in_the_forest",
+      "title": "Alone in the Forest",
+      "setup": "Damayanti wanders the wild forest alone, asking the mountains, rivers and trees if they have seen her husband.",
+      "characters": [
+        "damayanti"
+      ],
+      "image": {
+        "file": "nala_damayanti/e9.jpg",
+        "caption": "Damayanti in the forest (Damayanti Vanavasa)",
+        "credit": "Raja Ravi Varma (1848-1906)",
+        "source": "Wikimedia Commons",
+        "licence": "Public domain"
+      },
+      "dialogue": [
+        {
+          "speaker": "damayanti",
+          "kind": "speech",
+          "text": "Ashoka tree, whose name means 'without sorrow', take my sorrow away. Have you seen Nala?",
+          "anchor": "top_right"
+        },
+        {
+          "speaker": "damayanti",
+          "kind": "thought",
+          "text": "Whoever brought this on him, may he suffer more than we have.",
+          "anchor": "bottom_left"
+        }
+      ],
+      "payoff": {
+        "title": "Protected by her own word",
+        "body": "A python seized her and a hunter cut her free, then turned on her himself. Damayanti cursed him, and he fell dead. Her curse on Nala's tormentor reached Kali too, and he began to burn inside Nala.\n\nShe joined a merchant caravan, served as a maid to the queen of Chedi, and was finally recognised by a mark between her brows and taken home to her father."
+      }
+    },
+    {
+      "id": "e10_the_serpent_in_the_fire",
+      "title": "The Serpent in the Fire",
+      "setup": "Wandering alone, Nala hears a voice calling from a forest fire: \"Nala! Save me!\"",
+      "characters": [
+        "nala",
+        "karkotaka"
+      ],
+      "image": {
+        "file": "nala_damayanti/e10.jpg",
+        "caption": "Nala carries Karkotaka from the fire",
+        "credit": "Sumit Patra (AI-generated)",
+        "source": "Generated with ComfyUI, FLUX.2 [klein] 4B",
+        "licence": "CC BY 4.0"
+      },
+      "dialogue": [
+        {
+          "speaker": "karkotaka",
+          "kind": "speech",
+          "text": "A curse holds me here until you carry me. Count your steps aloud as you walk.",
+          "anchor": "top_right"
+        },
+        {
+          "speaker": "nala",
+          "kind": "speech",
+          "text": "...eight, nine, ten!",
+          "anchor": "top_left"
+        },
+        {
+          "speaker": "karkotaka",
+          "kind": "speech",
+          "text": "I have changed your shape so no one will know you. My poison will torment the one who torments you.",
+          "anchor": "bottom_right"
+        }
+      ],
+      "payoff": {
+        "title": "A disguise and a gift",
+        "body": "On the word 'ten', which also means 'bite', the serpent sank its fangs into him, and Nala shrank into a short, crooked man with stunted arms. Not even Damayanti would have known him.\n\nKarkotaka gave him a magic cloth: wear it, and your true form returns. Until then, go to King Rituparna of Ayodhya as Bahuka the charioteer. He will teach you the secret of the dice."
+      }
+    },
+    {
+      "id": "e11_the_charioteer",
+      "title": "The Charioteer",
+      "setup": "Damayanti announces a second swayamvara for tomorrow. Only one charioteer alive could get King Rituparna there in time.",
+      "characters": [
+        "nala",
+        "rituparna",
+        "kali"
+      ],
+      "image": {
+        "file": "nala_damayanti/e11.jpg",
+        "caption": "Rituparna counts the leaves of the vibhitaka tree",
+        "credit": "Sumit Patra (AI-generated)",
+        "source": "Generated with ComfyUI, FLUX.2 [klein] 4B",
+        "licence": "CC BY 4.0"
+      },
+      "dialogue": [
+        {
+          "speaker": "rituparna",
+          "kind": "speech",
+          "text": "That tree has fifty million leaves and two thousand and ninety-five fruits. Count them if you doubt me!",
+          "anchor": "top_left"
+        },
+        {
+          "speaker": "nala",
+          "kind": "speech",
+          "text": "Teach me how you count, and I will teach you the secret of horses.",
+          "anchor": "bottom_right"
+        },
+        {
+          "speaker": null,
+          "kind": "caption",
+          "text": "The moment Nala learns the secret of numbers, Kali is forced out of him, coughing up the serpent's poison.",
+          "anchor": "bottom"
+        }
+      ],
+      "payoff": {
+        "title": "Free of Kali",
+        "body": "The 'swayamvara' was Damayanti's trap. Only Nala could drive so fast, so only Nala could bring a king that far in a day.\n\nOn the way, Nala learned the science of dice, and Kali fled into a vibhitaka tree. The tree has been thought unlucky ever since."
+      }
+    },
+    {
+      "id": "e12_recognised",
+      "title": "Recognised",
+      "setup": "Damayanti hears a chariot thunder into the city, the way only Nala's ever did. She sends Keshini to watch its strange, crooked little driver.",
+      "characters": [
+        "damayanti",
+        "nala",
+        "keshini"
+      ],
+      "image": {
+        "file": "nala_damayanti/e12.jpg",
+        "caption": "Nala restored, and Damayanti",
+        "credit": "Sumit Patra (AI-generated)",
+        "source": "Generated with ComfyUI, FLUX.2 [klein] 4B",
+        "licence": "CC BY 4.0"
+      },
+      "dialogue": [
+        {
+          "speaker": "keshini",
+          "kind": "speech",
+          "text": "Empty jars fill when he looks at them. Fire lights at his touch. Doorways rise so he never stoops.",
+          "anchor": "top_right"
+        },
+        {
+          "speaker": "damayanti",
+          "kind": "speech",
+          "text": "Only Nala had those gifts from the gods. Why did you leave me in the forest?",
+          "anchor": "top_left"
+        },
+        {
+          "speaker": "nala",
+          "kind": "speech",
+          "text": "It was Kali, not me. And it was Kali you defeated.",
+          "anchor": "bottom_right"
+        }
+      ],
+      "payoff": {
+        "title": "Together again",
+        "body": "Nala put on the serpent's cloth and stood before her in his own form. The wind god spoke from the sky to say that Damayanti had been faithful all along.\n\nThey had been apart for years. That night, for the first time since the dice, neither of them was afraid."
+      }
+    }
+  ],
+  "finale": {
+    "title": "Why this story survived",
+    "body": "Nala went home and challenged Pushkara to one last game, staking his life against the kingdom. This time he knew the secret of the dice, and he won. Then he forgave his brother and sent him home in peace.\n\nIn the Mahabharata, a sage tells this story to the exiled Pandavas, who had also lost everything at dice, to show them that the worst luck can end. Centuries later the poet Sriharsha retold its first half, the courtship, in the Naishadhiya Charita, and around 1900 Raja Ravi Varma painted Damayanti and her swan, the picture that made the story famous all over India."
+  }
+}
