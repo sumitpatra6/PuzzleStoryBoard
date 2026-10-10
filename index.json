@@ -16,6 +16,14 @@
       "contentVersion": 1,
       "cover": "nala_damayanti/cover.jpg",
       "eventCount": 12
+    },
+    {
+      "id": "savitri",
+      "title": "Savitri and Satyavan",
+      "subtitle": "From the Vana Parva of the Mahabharata",
+      "contentVersion": 1,
+      "cover": "savitri/cover.jpg",
+      "eventCount": 10
     }
   ]
 }

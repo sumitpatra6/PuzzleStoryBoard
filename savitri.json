@@ -1,0 +1,500 @@
+{
+  "formatVersion": 1,
+  "id": "savitri",
+  "title": "Savitri and Satyavan",
+  "subtitle": "From the Vana Parva of the Mahabharata",
+  "intro": {
+    "title": "The princess no one dared to ask",
+    "body": "King Ashvapati of Madra was good and wise, but he had no child. He prayed for eighteen years, and at last a daughter was born. He named her Savitri, after the goddess who had answered him.\n\nShe grew up so bright and serious that princes were afraid to ask for her hand. So her father did something unusual: he sent her out to find a husband for herself. This is the story of the man she chose, the death that was promised him, and how she argued with Death himself.",
+    "image": {
+      "file": "savitri/intro.jpg",
+      "caption": "Savitri in her father's garden",
+      "credit": "Sumit Patra (AI-generated)",
+      "source": "Generated with ComfyUI, FLUX.2 [klein] 4B",
+      "licence": "CC BY 4.0"
+    }
+  },
+  "characters": [
+    {
+      "id": "savitri",
+      "name": "Savitri",
+      "epithet": "Princess of Madra",
+      "blurb": "Born from a prayer and named after a goddess. Gentle, stubborn and clever with words, she never makes the same decision twice.",
+      "image": {
+        "file": "savitri/char_savitri.jpg",
+        "caption": "Savitri (detail of Savitri and Satyavan)",
+        "credit": "Raja Ravi Varma (1848-1906); scan by Wellcome Collection",
+        "source": "Wikimedia Commons",
+        "licence": "CC BY 4.0"
+      }
+    },
+    {
+      "id": "satyavan",
+      "name": "Satyavan",
+      "epithet": "The truthful one",
+      "blurb": "A prince raised in the forest who cuts wood and looks after his blind parents. As a boy he loved horses so much he painted them, so people also call him Chitrashva.",
+      "image": {
+        "file": "savitri/char_satyavan.jpg",
+        "caption": "Satyavan",
+        "credit": "Sumit Patra (AI-generated)",
+        "source": "Generated with ComfyUI, FLUX.2 [klein] 4B",
+        "licence": "CC BY 4.0"
+      }
+    },
+    {
+      "id": "ashvapati",
+      "name": "Ashvapati",
+      "epithet": "King of Madra",
+      "blurb": "Savitri's father, a king who prayed eighteen years for a child. He trusts his daughter more than most kings would.",
+      "image": {
+        "file": "savitri/char_ashvapati.jpg",
+        "caption": "King Ashvapati",
+        "credit": "Sumit Patra (AI-generated)",
+        "source": "Generated with ComfyUI, FLUX.2 [klein] 4B",
+        "licence": "CC BY 4.0"
+      }
+    },
+    {
+      "id": "narada",
+      "name": "Narada",
+      "epithet": "The wandering sage",
+      "blurb": "A divine sage who travels between heaven and earth with his veena. He knows what is going to happen, and he always says it.",
+      "image": {
+        "file": "savitri/char_narada.jpg",
+        "caption": "The sage Narada",
+        "credit": "Sumit Patra (AI-generated)",
+        "source": "Generated with ComfyUI, FLUX.2 [klein] 4B",
+        "licence": "CC BY 4.0"
+      }
+    },
+    {
+      "id": "dyumatsena",
+      "name": "Dyumatsena",
+      "epithet": "The exiled king",
+      "blurb": "Satyavan's father, once king of the Shalvas. When he went blind, an old enemy took his kingdom, and he went to live in the forest.",
+      "image": {
+        "file": "savitri/char_dyumatsena.jpg",
+        "caption": "Dyumatsena",
+        "credit": "Sumit Patra (AI-generated)",
+        "source": "Generated with ComfyUI, FLUX.2 [klein] 4B",
+        "licence": "CC BY 4.0"
+      }
+    },
+    {
+      "id": "yama",
+      "name": "Yama",
+      "epithet": "Lord of death and of dharma",
+      "blurb": "The first mortal who ever died, and now the judge of the dead. He is not cruel, only exact, and he respects anyone who speaks the truth.",
+      "image": {
+        "file": "savitri/char_yama.jpg",
+        "caption": "Yama",
+        "credit": "Sumit Patra (AI-generated)",
+        "source": "Generated with ComfyUI, FLUX.2 [klein] 4B",
+        "licence": "CC BY 4.0"
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "e1_the_kings_prayer",
+      "title": "The King's Prayer",
+      "setup": "For eighteen years King Ashvapati offers prayers into the sacred fire, eating only at the sixth hour, hoping for a child.",
+      "characters": [
+        "ashvapati"
+      ],
+      "image": {
+        "file": "savitri/e1.jpg",
+        "caption": "The goddess appears to King Ashvapati",
+        "credit": "Sumit Patra (AI-generated)",
+        "source": "Generated with ComfyUI, FLUX.2 [klein] 4B",
+        "licence": "CC BY 4.0"
+      },
+      "dialogue": [
+        {
+          "speaker": null,
+          "kind": "caption",
+          "text": "A hundred thousand offerings, one each day, for eighteen years.",
+          "anchor": "top"
+        },
+        {
+          "speaker": "ashvapati",
+          "kind": "speech",
+          "text": "Goddess, I ask for children, to carry on my family's name and duty.",
+          "anchor": "bottom_left"
+        },
+        {
+          "speaker": null,
+          "kind": "caption",
+          "text": "The goddess rose out of the fire: 'You will have a daughter, full of light.'",
+          "anchor": "bottom"
+        }
+      ],
+      "payoff": {
+        "title": "A daughter, not a son",
+        "body": "The king had asked for sons. The goddess gave him a daughter instead, and promised she would be enough.\n\nHe named the baby after the goddess herself: Savitri."
+      }
+    },
+    {
+      "id": "e2_no_one_dares",
+      "title": "No One Dares",
+      "setup": "Savitri grows up like a goddess on earth. Princes admire her from afar, and not one asks to marry her.",
+      "characters": [
+        "savitri",
+        "ashvapati"
+      ],
+      "image": {
+        "file": "savitri/e2.jpg",
+        "caption": "Ashvapati blesses Savitri before her journey",
+        "credit": "Sumit Patra (AI-generated)",
+        "source": "Generated with ComfyUI, FLUX.2 [klein] 4B",
+        "licence": "CC BY 4.0"
+      },
+      "dialogue": [
+        {
+          "speaker": "ashvapati",
+          "kind": "speech",
+          "text": "No one has asked for you, my daughter, and it shames me. Go out yourself, and choose.",
+          "anchor": "top_left"
+        },
+        {
+          "speaker": "savitri",
+          "kind": "speech",
+          "text": "I will go, father.",
+          "anchor": "top_right"
+        },
+        {
+          "speaker": null,
+          "kind": "caption",
+          "text": "With his old ministers she set out in a golden chariot, visiting forest hermitages.",
+          "anchor": "bottom"
+        }
+      ],
+      "payoff": {
+        "title": "A father's trust",
+        "body": "In most stories a king chooses his daughter's husband. Ashvapati sent his daughter to choose for herself, and promised to accept whoever she chose.\n\nShe travelled from hermitage to hermitage, among holy men and forest people, not palaces."
+      }
+    },
+    {
+      "id": "e3_the_forest_prince",
+      "title": "The Forest Prince",
+      "setup": "In a forest hermitage Savitri sees a young man carrying firewood and leading his blind old father by the hand.",
+      "characters": [
+        "savitri",
+        "satyavan",
+        "dyumatsena"
+      ],
+      "image": {
+        "file": "savitri/e3.jpg",
+        "caption": "Savitri sees Satyavan at the hermitage",
+        "credit": "Sumit Patra (AI-generated)",
+        "source": "Generated with ComfyUI, FLUX.2 [klein] 4B",
+        "licence": "CC BY 4.0"
+      },
+      "dialogue": [
+        {
+          "speaker": "satyavan",
+          "kind": "speech",
+          "text": "Careful, father, there is a root here.",
+          "anchor": "top_left"
+        },
+        {
+          "speaker": "savitri",
+          "kind": "thought",
+          "text": "A prince who cuts wood, and leads his father like that. He is the one.",
+          "anchor": "top_right"
+        },
+        {
+          "speaker": null,
+          "kind": "caption",
+          "text": "He was Satyavan, son of Dyumatsena, the blind king who lost his throne.",
+          "anchor": "bottom"
+        }
+      ],
+      "payoff": {
+        "title": "Choosing a person",
+        "body": "Satyavan had no kingdom, no palace and no money. He had his parents, his axe and his good name.\n\nSavitri did not ask what he owned. She watched how he treated his father, and decided."
+      }
+    },
+    {
+      "id": "e4_naradas_warning",
+      "title": "Narada's Warning",
+      "setup": "Savitri comes home to tell her father her choice. The sage Narada is sitting with him, and his face falls when he hears the name.",
+      "characters": [
+        "savitri",
+        "narada",
+        "ashvapati"
+      ],
+      "image": {
+        "file": "savitri/e4.jpg",
+        "caption": "Savitri before Narada and her father (Savitri Narad Samvad)",
+        "credit": "Raja Ravi Varma (1848-1906)",
+        "source": "Wikimedia Commons",
+        "licence": "Public domain"
+      },
+      "dialogue": [
+        {
+          "speaker": "narada",
+          "kind": "speech",
+          "text": "Satyavan is as good as he is handsome. But he has one fault: one year from today, he will die.",
+          "anchor": "top"
+        },
+        {
+          "speaker": "ashvapati",
+          "kind": "speech",
+          "text": "Then choose another, my child.",
+          "anchor": "top_left"
+        },
+        {
+          "speaker": "savitri",
+          "kind": "speech",
+          "text": "A daughter is given once. I have chosen once. I will not choose again.",
+          "anchor": "bottom_right"
+        }
+      ],
+      "payoff": {
+        "title": "Once only",
+        "body": "Savitri knew exactly what she was choosing: one year, and then grief. She chose it anyway, because her mind was made up and she would not unsay it.\n\nNarada looked at her a long time. Then he told the king: 'Let her marry him.'"
+      }
+    },
+    {
+      "id": "e5_the_hermitage_wedding",
+      "title": "The Hermitage Wedding",
+      "setup": "Ashvapati brings his daughter to the forest. The blind king is ashamed: how can a princess live in a hut?",
+      "characters": [
+        "savitri",
+        "satyavan",
+        "dyumatsena"
+      ],
+      "image": {
+        "file": "savitri/e5.jpg",
+        "caption": "Savitri sets aside her jewels on her wedding day",
+        "credit": "Sumit Patra (AI-generated)",
+        "source": "Generated with ComfyUI, FLUX.2 [klein] 4B",
+        "licence": "CC BY 4.0"
+      },
+      "dialogue": [
+        {
+          "speaker": "dyumatsena",
+          "kind": "speech",
+          "text": "We have lost our kingdom. Can a princess live as we do?",
+          "anchor": "top_left"
+        },
+        {
+          "speaker": "savitri",
+          "kind": "speech",
+          "text": "Where he lives, I live.",
+          "anchor": "top_right"
+        },
+        {
+          "speaker": null,
+          "kind": "caption",
+          "text": "She took off her jewels and silks, put on a plain ochre cloth, and told no one what Narada had said.",
+          "anchor": "bottom"
+        }
+      ],
+      "payoff": {
+        "title": "A secret kept",
+        "body": "Savitri served her husband's parents and won everyone in the hermitage with her kindness.\n\nBut every day she counted. Narada's words were always in her mind, and she carried them alone."
+      }
+    },
+    {
+      "id": "e6_three_nights",
+      "title": "Three Nights",
+      "setup": "Four days are left. Savitri begins a vow: three days and nights standing upright, without food, without sleep.",
+      "characters": [
+        "savitri"
+      ],
+      "image": {
+        "file": "savitri/e6.jpg",
+        "caption": "Savitri keeps her vow under the stars",
+        "credit": "Sumit Patra (AI-generated)",
+        "source": "Generated with ComfyUI, FLUX.2 [klein] 4B",
+        "licence": "CC BY 4.0"
+      },
+      "dialogue": [
+        {
+          "speaker": "savitri",
+          "kind": "thought",
+          "text": "Tomorrow is the day.",
+          "anchor": "top_left"
+        },
+        {
+          "speaker": null,
+          "kind": "caption",
+          "text": "Dyumatsena begged her to stop. 'It is too hard, daughter.' She answered: 'I have promised. I will finish.'",
+          "anchor": "bottom"
+        }
+      ],
+      "payoff": {
+        "title": "Strength, not luck",
+        "body": "A vow, in this story, is not a bargain with the gods. It is a way of gathering your strength for what is coming.\n\nOn the fourth morning she made her offerings into the fire and still refused to eat. 'I will eat when the sun goes down,' she said."
+      }
+    },
+    {
+      "id": "e7_into_the_forest",
+      "title": "Into the Forest",
+      "setup": "Satyavan picks up his axe to fetch firewood and fruit. Savitri, who has not eaten in three days, insists on going with him.",
+      "characters": [
+        "savitri",
+        "satyavan"
+      ],
+      "image": {
+        "file": "savitri/e7.jpg",
+        "caption": "Satyavan and Savitri walk into the forest",
+        "credit": "Sumit Patra (AI-generated)",
+        "source": "Generated with ComfyUI, FLUX.2 [klein] 4B",
+        "licence": "CC BY 4.0"
+      },
+      "dialogue": [
+        {
+          "speaker": "satyavan",
+          "kind": "speech",
+          "text": "You have never come before, and you are weak from fasting. Stay.",
+          "anchor": "top_left"
+        },
+        {
+          "speaker": "savitri",
+          "kind": "speech",
+          "text": "Today I will not leave you.",
+          "anchor": "top_right"
+        },
+        {
+          "speaker": null,
+          "kind": "caption",
+          "text": "Smiling, he showed her the rivers and flowering trees. She laughed with him and watched him every moment.",
+          "anchor": "bottom"
+        }
+      ],
+      "payoff": {
+        "title": "The last walk",
+        "body": "Savitri even asked his parents' permission first, so that nothing would be done badly on this day.\n\nSatyavan thought it was a pleasant walk. Only she knew what the evening would bring."
+      }
+    },
+    {
+      "id": "e8_the_lord_of_death",
+      "title": "The Lord of Death",
+      "setup": "Splitting wood, Satyavan feels a sharp pain in his head. He lies down with his head in Savitri's lap, and a shadow arrives.",
+      "characters": [
+        "savitri",
+        "satyavan",
+        "yama"
+      ],
+      "image": {
+        "file": "savitri/e8.jpg",
+        "caption": "Yama comes for Satyavan (Savitri and Satyavan)",
+        "credit": "Raja Ravi Varma (1848-1906); scan by Wellcome Collection",
+        "source": "Wikimedia Commons",
+        "licence": "CC BY 4.0"
+      },
+      "dialogue": [
+        {
+          "speaker": "satyavan",
+          "kind": "speech",
+          "text": "My head... I cannot stand.",
+          "anchor": "bottom_left"
+        },
+        {
+          "speaker": "savitri",
+          "kind": "speech",
+          "text": "Who are you, who look like a god?",
+          "anchor": "top_right"
+        },
+        {
+          "speaker": "yama",
+          "kind": "speech",
+          "text": "I am Yama. His life is over, and I have come myself, because he was good.",
+          "anchor": "top_left"
+        }
+      ],
+      "payoff": {
+        "title": "Death in person",
+        "body": "Yama usually sends his messengers. For Satyavan he came himself.\n\nHe drew Satyavan's soul out of his body, no bigger than a thumb, tied it with his noose, and turned south. Savitri laid her husband's body down gently, and followed."
+      }
+    },
+    {
+      "id": "e9_the_boons",
+      "title": "The Boons",
+      "setup": "Yama walks into the dusk towards the land of the dead. Savitri walks behind him, talking, and will not turn back.",
+      "characters": [
+        "savitri",
+        "yama"
+      ],
+      "image": {
+        "file": "savitri/e9.jpg",
+        "caption": "Savitri follows Yama",
+        "credit": "Sumit Patra (AI-generated)",
+        "source": "Generated with ComfyUI, FLUX.2 [klein] 4B",
+        "licence": "CC BY 4.0"
+      },
+      "dialogue": [
+        {
+          "speaker": "yama",
+          "kind": "speech",
+          "text": "Go back. You have come as far as anyone may.",
+          "anchor": "top_left"
+        },
+        {
+          "speaker": "savitri",
+          "kind": "speech",
+          "text": "Seven steps together make friends, the wise say. We have walked far more than seven.",
+          "anchor": "top_right"
+        },
+        {
+          "speaker": null,
+          "kind": "caption",
+          "text": "Each time she spoke, Yama was so pleased that he granted her a wish, anything but Satyavan's life.",
+          "anchor": "bottom"
+        }
+      ],
+      "payoff": {
+        "title": "The fourth wish",
+        "body": "First she asked for her father-in-law's sight, then his lost kingdom, then sons for her own father. Then she asked for a hundred sons of her own, with Satyavan.\n\nYama said yes, and stopped. A son of Satyavan needs Satyavan alive. He laughed, untied the noose, and gave her husband back."
+      }
+    },
+    {
+      "id": "e10_dawn",
+      "title": "Dawn",
+      "setup": "Satyavan wakes in Savitri's lap as if from a long sleep. They walk home through the dark to a hermitage that has been searching for them.",
+      "characters": [
+        "savitri",
+        "satyavan",
+        "dyumatsena"
+      ],
+      "image": {
+        "file": "savitri/e10.jpg",
+        "caption": "Dyumatsena sees his son again",
+        "credit": "Sumit Patra (AI-generated)",
+        "source": "Generated with ComfyUI, FLUX.2 [klein] 4B",
+        "licence": "CC BY 4.0"
+      },
+      "dialogue": [
+        {
+          "speaker": "dyumatsena",
+          "kind": "speech",
+          "text": "My son! I can see you! I can see you!",
+          "anchor": "top_left"
+        },
+        {
+          "speaker": "satyavan",
+          "kind": "speech",
+          "text": "I dreamed a dark man was carrying me away.",
+          "anchor": "top_right"
+        },
+        {
+          "speaker": "savitri",
+          "kind": "speech",
+          "text": "It was no dream. Sit down, all of you, and I will tell you everything.",
+          "anchor": "bottom"
+        }
+      ],
+      "payoff": {
+        "title": "Every wish, kept",
+        "body": "The blind king had woken that evening able to see. At dawn messengers came from his old kingdom: the usurper was dead, and his people wanted him back.\n\nEvery boon Savitri had asked for came true, one after another."
+      }
+    }
+  ],
+  "finale": {
+    "title": "Why this story survived",
+    "body": "In the Mahabharata, a sage tells this story to Yudhishthira in exile, when he asks whether any woman was ever as faithful as Draupadi. The answer is Savitri, who chose with her eyes open, kept her secret, and won by arguing, not by magic.\n\nMarried women in many parts of India still keep the Vat Savitri vow under a banyan tree each summer, and around 1900 Raja Ravi Varma's prints of Savitri, Satyavan and Yama hung in homes across the country."
+  }
+}
